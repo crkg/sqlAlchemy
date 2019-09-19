@@ -1,0 +1,923 @@
+[2019-09-02 15:20:26 +0530] [6242] [INFO] Starting gunicorn 19.9.0
+[2019-09-02 15:20:26 +0530] [6242] [INFO] Listening at: http://0.0.0.0:8443 (6242)
+[2019-09-02 15:20:26 +0530] [6242] [INFO] Using worker: sync
+[2019-09-02 15:20:26 +0530] [6245] [INFO] Booting worker with pid: 6245
+[2019-09-02 15:20:26 +0530] [6246] [INFO] Booting worker with pid: 6246
+[2019-09-02 15:20:26 +0530] [6247] [INFO] Booting worker with pid: 6247
+[2019-09-02 15:20:26 +0530] [6248] [INFO] Booting worker with pid: 6248
+[2019-09-02 15:20:27 +0530] [6249] [INFO] Booting worker with pid: 6249
+[2019-09-02 15:20:27 +0530] [6250] [INFO] Booting worker with pid: 6250
+[2019-09-02 15:20:27 +0530] [6252] [INFO] Booting worker with pid: 6252
+[2019-09-02 15:20:27 +0530] [6254] [INFO] Booting worker with pid: 6254
+[2019-09-02 15:20:27 +0530] [6255] [INFO] Booting worker with pid: 6255
+[2019-09-02 15:20:27 +0530] [6256] [INFO] Booting worker with pid: 6256
+[2019-09-02 15:20:27 +0530] [6257] [INFO] Booting worker with pid: 6257
+[2019-09-02 15:20:27 +0530] [6258] [INFO] Booting worker with pid: 6258
+[2019-09-02 15:20:27 +0530] [6259] [INFO] Booting worker with pid: 6259
+[2019-09-02 15:20:27 +0530] [6260] [INFO] Booting worker with pid: 6260
+[2019-09-02 15:20:27 +0530] [6261] [INFO] Booting worker with pid: 6261
+[2019-09-02 15:20:27 +0530] [6262] [INFO] Booting worker with pid: 6262
+[2019-09-02 15:20:27 +0530] [6263] [INFO] Booting worker with pid: 6263
+[2019-09-02 16:11:41 +0530] [6258] [INFO] Parent changed, shutting down: <Worker 6258>
+[2019-09-02 16:11:41 +0530] [6259] [INFO] Parent changed, shutting down: <Worker 6259>
+[2019-09-02 16:11:41 +0530] [6263] [INFO] Parent changed, shutting down: <Worker 6263>
+[2019-09-02 16:11:41 +0530] [6247] [INFO] Parent changed, shutting down: <Worker 6247>
+[2019-09-02 16:11:41 +0530] [6254] [INFO] Parent changed, shutting down: <Worker 6254>
+[2019-09-02 16:11:41 +0530] [6248] [INFO] Parent changed, shutting down: <Worker 6248>
+[2019-09-02 16:11:41 +0530] [6263] [INFO] Worker exiting (pid: 6263)
+[2019-09-02 16:11:41 +0530] [6258] [INFO] Worker exiting (pid: 6258)
+[2019-09-02 16:11:41 +0530] [6259] [INFO] Worker exiting (pid: 6259)
+[2019-09-02 16:11:41 +0530] [6248] [INFO] Worker exiting (pid: 6248)
+[2019-09-02 16:11:41 +0530] [6254] [INFO] Worker exiting (pid: 6254)
+[2019-09-02 16:11:41 +0530] [6247] [INFO] Worker exiting (pid: 6247)
+[2019-09-02 16:11:42 +0530] [6250] [INFO] Parent changed, shutting down: <Worker 6250>
+[2019-09-02 16:11:42 +0530] [6252] [INFO] Parent changed, shutting down: <Worker 6252>
+[2019-09-02 16:11:42 +0530] [6250] [INFO] Worker exiting (pid: 6250)
+[2019-09-02 16:11:42 +0530] [6252] [INFO] Worker exiting (pid: 6252)
+[2019-09-02 16:24:10 +0530] [6634] [INFO] Starting gunicorn 19.9.0
+[2019-09-02 16:24:10 +0530] [6634] [ERROR] Connection in use: ('0.0.0.0', 8443)
+[2019-09-02 16:24:10 +0530] [6634] [ERROR] Retrying in 1 second.
+[2019-09-02 16:24:11 +0530] [6634] [ERROR] Connection in use: ('0.0.0.0', 8443)
+[2019-09-02 16:24:11 +0530] [6634] [ERROR] Retrying in 1 second.
+[2019-09-02 16:24:12 +0530] [6634] [ERROR] Connection in use: ('0.0.0.0', 8443)
+[2019-09-02 16:24:12 +0530] [6634] [ERROR] Retrying in 1 second.
+[2019-09-02 16:24:13 +0530] [6634] [ERROR] Connection in use: ('0.0.0.0', 8443)
+[2019-09-02 16:24:13 +0530] [6634] [ERROR] Retrying in 1 second.
+[2019-09-02 16:24:14 +0530] [6634] [ERROR] Connection in use: ('0.0.0.0', 8443)
+[2019-09-02 16:24:14 +0530] [6634] [ERROR] Retrying in 1 second.
+[2019-09-02 16:24:15 +0530] [6634] [ERROR] Can't connect to ('0.0.0.0', 8443)
+[2019-09-02 16:25:56 +0530] [6262] [INFO] Parent changed, shutting down: <Worker 6262>
+[2019-09-02 16:25:56 +0530] [6261] [INFO] Parent changed, shutting down: <Worker 6261>
+[2019-09-02 16:25:56 +0530] [6262] [INFO] Worker exiting (pid: 6262)
+[2019-09-02 16:25:56 +0530] [6261] [INFO] Worker exiting (pid: 6261)
+[2019-09-02 16:25:56 +0530] [6257] [INFO] Parent changed, shutting down: <Worker 6257>
+[2019-09-02 16:25:56 +0530] [6257] [INFO] Worker exiting (pid: 6257)
+[2019-09-02 16:25:56 +0530] [6260] [INFO] Parent changed, shutting down: <Worker 6260>
+[2019-09-02 16:25:56 +0530] [6255] [INFO] Parent changed, shutting down: <Worker 6255>
+[2019-09-02 16:25:56 +0530] [6256] [INFO] Parent changed, shutting down: <Worker 6256>
+[2019-09-02 16:25:56 +0530] [6260] [INFO] Worker exiting (pid: 6260)
+[2019-09-02 16:25:56 +0530] [6256] [INFO] Worker exiting (pid: 6256)
+[2019-09-02 16:25:56 +0530] [6255] [INFO] Worker exiting (pid: 6255)
+[2019-09-02 16:28:43 +0530] [6666] [INFO] Starting gunicorn 19.9.0
+[2019-09-02 16:28:43 +0530] [6666] [INFO] Listening at: http://0.0.0.0:8443 (6666)
+[2019-09-02 16:28:43 +0530] [6666] [INFO] Using worker: sync
+[2019-09-02 16:28:43 +0530] [6669] [INFO] Booting worker with pid: 6669
+[2019-09-02 16:28:43 +0530] [6670] [INFO] Booting worker with pid: 6670
+[2019-09-02 16:28:43 +0530] [6671] [INFO] Booting worker with pid: 6671
+[2019-09-02 16:28:43 +0530] [6672] [INFO] Booting worker with pid: 6672
+[2019-09-02 16:28:43 +0530] [6673] [INFO] Booting worker with pid: 6673
+[2019-09-02 16:28:43 +0530] [6674] [INFO] Booting worker with pid: 6674
+[2019-09-02 16:28:43 +0530] [6675] [INFO] Booting worker with pid: 6675
+[2019-09-02 16:28:43 +0530] [6676] [INFO] Booting worker with pid: 6676
+[2019-09-02 16:28:43 +0530] [6677] [INFO] Booting worker with pid: 6677
+[2019-09-02 16:28:43 +0530] [6678] [INFO] Booting worker with pid: 6678
+[2019-09-02 16:28:43 +0530] [6679] [INFO] Booting worker with pid: 6679
+[2019-09-02 16:28:43 +0530] [6680] [INFO] Booting worker with pid: 6680
+[2019-09-02 16:28:43 +0530] [6681] [INFO] Booting worker with pid: 6681
+[2019-09-02 16:28:43 +0530] [6682] [INFO] Booting worker with pid: 6682
+[2019-09-02 16:28:43 +0530] [6683] [INFO] Booting worker with pid: 6683
+[2019-09-02 16:28:43 +0530] [6684] [INFO] Booting worker with pid: 6684
+[2019-09-02 16:28:43 +0530] [6685] [INFO] Booting worker with pid: 6685
+[2019-09-02 16:29:32 +0530] [6666] [INFO] Handling signal: term
+[2019-09-02 16:29:32 +0530] [6669] [INFO] Worker exiting (pid: 6669)
+[2019-09-02 16:29:32 +0530] [6677] [INFO] Worker exiting (pid: 6677)
+[2019-09-02 16:29:32 +0530] [6670] [INFO] Worker exiting (pid: 6670)
+[2019-09-02 16:29:32 +0530] [6672] [INFO] Worker exiting (pid: 6672)
+[2019-09-02 16:29:32 +0530] [6680] [INFO] Worker exiting (pid: 6680)
+[2019-09-02 16:29:32 +0530] [6682] [INFO] Worker exiting (pid: 6682)
+[2019-09-02 16:29:32 +0530] [6684] [INFO] Worker exiting (pid: 6684)
+[2019-09-02 16:29:32 +0530] [6683] [INFO] Worker exiting (pid: 6683)
+[2019-09-02 16:29:32 +0530] [6685] [INFO] Worker exiting (pid: 6685)
+[2019-09-02 16:29:32 +0530] [6676] [INFO] Worker exiting (pid: 6676)
+[2019-09-02 16:29:32 +0530] [6671] [INFO] Worker exiting (pid: 6671)
+[2019-09-02 16:29:32 +0530] [6675] [INFO] Worker exiting (pid: 6675)
+[2019-09-02 16:29:32 +0530] [6679] [INFO] Worker exiting (pid: 6679)
+[2019-09-02 16:29:32 +0530] [6673] [INFO] Worker exiting (pid: 6673)
+[2019-09-02 16:29:32 +0530] [6678] [INFO] Worker exiting (pid: 6678)
+[2019-09-02 16:29:32 +0530] [6674] [INFO] Worker exiting (pid: 6674)
+[2019-09-02 16:29:32 +0530] [6681] [INFO] Worker exiting (pid: 6681)
+[2019-09-02 16:29:32 +0530] [6666] [INFO] Shutting down: Master
+[2019-09-02 18:31:28 +0530] [7239] [INFO] Starting gunicorn 19.9.0
+[2019-09-02 18:31:28 +0530] [7239] [INFO] Listening at: http://0.0.0.0:8443 (7239)
+[2019-09-02 18:31:28 +0530] [7239] [INFO] Using worker: sync
+[2019-09-02 18:31:28 +0530] [7242] [INFO] Booting worker with pid: 7242
+[2019-09-02 18:31:28 +0530] [7243] [INFO] Booting worker with pid: 7243
+[2019-09-02 18:31:28 +0530] [7244] [INFO] Booting worker with pid: 7244
+[2019-09-02 18:31:28 +0530] [7245] [INFO] Booting worker with pid: 7245
+[2019-09-02 18:31:28 +0530] [7242] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/manage.py", line 6, in <module>
+    from sqlAlchemy.app_file import app, db
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/app_file.py", line 5, in <module>
+    from sqlAlchemy.apis import api
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/apis/__init__.py", line 2, in <module>
+    from sqlAlchemy.apis.movies import namespace as moviesnamespace
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/apis/movies.py", line 2, in <module>
+    from sqlAlchemy.resources.movies_ops import MovieOperations
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/resources/movies_ops.py", line 2, in <module>
+    from sqlAlchemy.models.utils.movies import MovieDbOperations
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/models/utils/movies.py", line 2, in <module>
+    from sqlAlchemy.models.utils.database_session import Persistance
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/models/utils/database_session.py", line 17, in <module>
+    engine=db.get_engine()
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 946, in get_engine
+    app = self.get_app(app)
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 982, in get_app
+    'No application found. Either work inside a view function or push'
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+[2019-09-02 18:31:28 +0530] [7242] [INFO] Worker exiting (pid: 7242)
+[2019-09-02 18:31:28 +0530] [7248] [INFO] Booting worker with pid: 7248
+[2019-09-02 18:31:28 +0530] [7243] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/manage.py", line 6, in <module>
+    from sqlAlchemy.app_file import app, db
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/app_file.py", line 5, in <module>
+    from sqlAlchemy.apis import api
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/apis/__init__.py", line 2, in <module>
+    from sqlAlchemy.apis.movies import namespace as moviesnamespace
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/apis/movies.py", line 2, in <module>
+    from sqlAlchemy.resources.movies_ops import MovieOperations
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/resources/movies_ops.py", line 2, in <module>
+    from sqlAlchemy.models.utils.movies import MovieDbOperations
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/models/utils/movies.py", line 2, in <module>
+    from sqlAlchemy.models.utils.database_session import Persistance
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/models/utils/database_session.py", line 17, in <module>
+    engine=db.get_engine()
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 946, in get_engine
+    app = self.get_app(app)
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 982, in get_app
+    'No application found. Either work inside a view function or push'
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+[2019-09-02 18:31:28 +0530] [7243] [INFO] Worker exiting (pid: 7243)
+[2019-09-02 18:31:28 +0530] [7244] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/manage.py", line 6, in <module>
+    from sqlAlchemy.app_file import app, db
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/app_file.py", line 5, in <module>
+    from sqlAlchemy.apis import api
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/apis/__init__.py", line 2, in <module>
+    from sqlAlchemy.apis.movies import namespace as moviesnamespace
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/apis/movies.py", line 2, in <module>
+    from sqlAlchemy.resources.movies_ops import MovieOperations
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/resources/movies_ops.py", line 2, in <module>
+    from sqlAlchemy.models.utils.movies import MovieDbOperations
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/models/utils/movies.py", line 2, in <module>
+    from sqlAlchemy.models.utils.database_session import Persistance
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/models/utils/database_session.py", line 17, in <module>
+    engine=db.get_engine()
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 946, in get_engine
+    app = self.get_app(app)
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 982, in get_app
+    'No application found. Either work inside a view function or push'
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+[2019-09-02 18:31:28 +0530] [7244] [INFO] Worker exiting (pid: 7244)
+[2019-09-02 18:31:29 +0530] [7245] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/manage.py", line 6, in <module>
+    from sqlAlchemy.app_file import app, db
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/app_file.py", line 5, in <module>
+    from sqlAlchemy.apis import api
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/apis/__init__.py", line 2, in <module>
+    from sqlAlchemy.apis.movies import namespace as moviesnamespace
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/apis/movies.py", line 2, in <module>
+    from sqlAlchemy.resources.movies_ops import MovieOperations
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/resources/movies_ops.py", line 2, in <module>
+    from sqlAlchemy.models.utils.movies import MovieDbOperations
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/models/utils/movies.py", line 2, in <module>
+    from sqlAlchemy.models.utils.database_session import Persistance
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/models/utils/database_session.py", line 17, in <module>
+    engine=db.get_engine()
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 946, in get_engine
+    app = self.get_app(app)
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 982, in get_app
+    'No application found. Either work inside a view function or push'
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+[2019-09-02 18:31:29 +0530] [7245] [INFO] Worker exiting (pid: 7245)
+[2019-09-02 18:31:29 +0530] [7248] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/manage.py", line 6, in <module>
+    from sqlAlchemy.app_file import app, db
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/app_file.py", line 5, in <module>
+    from sqlAlchemy.apis import api
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/apis/__init__.py", line 2, in <module>
+    from sqlAlchemy.apis.movies import namespace as moviesnamespace
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/apis/movies.py", line 2, in <module>
+    from sqlAlchemy.resources.movies_ops import MovieOperations
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/resources/movies_ops.py", line 2, in <module>
+    from sqlAlchemy.models.utils.movies import MovieDbOperations
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/models/utils/movies.py", line 2, in <module>
+    from sqlAlchemy.models.utils.database_session import Persistance
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/models/utils/database_session.py", line 17, in <module>
+    engine=db.get_engine()
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 946, in get_engine
+    app = self.get_app(app)
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 982, in get_app
+    'No application found. Either work inside a view function or push'
+RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
+[2019-09-02 18:31:29 +0530] [7248] [INFO] Worker exiting (pid: 7248)
+[2019-09-02 18:34:31 +0530] [7304] [INFO] Starting gunicorn 19.9.0
+[2019-09-02 18:34:31 +0530] [7304] [INFO] Listening at: http://0.0.0.0:8443 (7304)
+[2019-09-02 18:34:31 +0530] [7304] [INFO] Using worker: sync
+[2019-09-02 18:34:31 +0530] [7307] [INFO] Booting worker with pid: 7307
+[2019-09-02 18:34:31 +0530] [7308] [INFO] Booting worker with pid: 7308
+[2019-09-02 18:34:31 +0530] [7309] [INFO] Booting worker with pid: 7309
+[2019-09-02 18:34:31 +0530] [7310] [INFO] Booting worker with pid: 7310
+[2019-09-02 18:34:31 +0530] [7311] [INFO] Booting worker with pid: 7311
+[2019-09-02 18:34:31 +0530] [7312] [INFO] Booting worker with pid: 7312
+[2019-09-02 18:34:31 +0530] [7313] [INFO] Booting worker with pid: 7313
+[2019-09-02 18:34:31 +0530] [7314] [INFO] Booting worker with pid: 7314
+[2019-09-02 18:34:31 +0530] [7315] [INFO] Booting worker with pid: 7315
+[2019-09-02 18:34:31 +0530] [7316] [INFO] Booting worker with pid: 7316
+[2019-09-02 18:34:31 +0530] [7319] [INFO] Booting worker with pid: 7319
+[2019-09-02 18:34:31 +0530] [7320] [INFO] Booting worker with pid: 7320
+[2019-09-02 18:34:32 +0530] [7321] [INFO] Booting worker with pid: 7321
+[2019-09-02 18:34:32 +0530] [7322] [INFO] Booting worker with pid: 7322
+[2019-09-02 18:34:32 +0530] [7323] [INFO] Booting worker with pid: 7323
+[2019-09-02 18:34:32 +0530] [7324] [INFO] Booting worker with pid: 7324
+[2019-09-02 18:34:32 +0530] [7325] [INFO] Booting worker with pid: 7325
+[2019-09-02 18:41:16 +0530] [7304] [INFO] Handling signal: term
+[2019-09-02 18:41:16 +0530] [7316] [INFO] Worker exiting (pid: 7316)
+[2019-09-02 18:41:16 +0530] [7315] [INFO] Worker exiting (pid: 7315)
+[2019-09-02 18:41:16 +0530] [7310] [INFO] Worker exiting (pid: 7310)
+[2019-09-02 18:41:16 +0530] [7308] [INFO] Worker exiting (pid: 7308)
+[2019-09-02 18:41:16 +0530] [7309] [INFO] Worker exiting (pid: 7309)
+[2019-09-02 18:41:16 +0530] [7307] [INFO] Worker exiting (pid: 7307)
+[2019-09-02 18:41:16 +0530] [7324] [INFO] Worker exiting (pid: 7324)
+[2019-09-02 18:41:16 +0530] [7311] [INFO] Worker exiting (pid: 7311)
+[2019-09-02 18:41:16 +0530] [7325] [INFO] Worker exiting (pid: 7325)
+[2019-09-02 18:41:16 +0530] [7313] [INFO] Worker exiting (pid: 7313)
+[2019-09-02 18:41:16 +0530] [7314] [INFO] Worker exiting (pid: 7314)
+[2019-09-02 18:41:16 +0530] [7319] [INFO] Worker exiting (pid: 7319)
+[2019-09-02 18:41:16 +0530] [7323] [INFO] Worker exiting (pid: 7323)
+[2019-09-02 18:41:16 +0530] [7321] [INFO] Worker exiting (pid: 7321)
+[2019-09-02 18:41:16 +0530] [7312] [INFO] Worker exiting (pid: 7312)
+[2019-09-02 18:41:16 +0530] [7322] [INFO] Worker exiting (pid: 7322)
+[2019-09-02 18:41:16 +0530] [7320] [INFO] Worker exiting (pid: 7320)
+[2019-09-02 18:41:17 +0530] [7304] [INFO] Shutting down: Master
+[2019-09-02 18:41:25 +0530] [7356] [INFO] Starting gunicorn 19.9.0
+[2019-09-02 18:41:25 +0530] [7356] [INFO] Listening at: http://0.0.0.0:8443 (7356)
+[2019-09-02 18:41:25 +0530] [7356] [INFO] Using worker: sync
+[2019-09-02 18:41:25 +0530] [7359] [INFO] Booting worker with pid: 7359
+[2019-09-02 18:41:25 +0530] [7360] [INFO] Booting worker with pid: 7360
+[2019-09-02 18:41:25 +0530] [7361] [INFO] Booting worker with pid: 7361
+[2019-09-02 18:41:25 +0530] [7362] [INFO] Booting worker with pid: 7362
+[2019-09-02 18:41:25 +0530] [7365] [INFO] Booting worker with pid: 7365
+[2019-09-02 18:41:25 +0530] [7366] [INFO] Booting worker with pid: 7366
+[2019-09-02 18:41:25 +0530] [7367] [INFO] Booting worker with pid: 7367
+[2019-09-02 18:41:25 +0530] [7368] [INFO] Booting worker with pid: 7368
+[2019-09-02 18:41:25 +0530] [7369] [INFO] Booting worker with pid: 7369
+[2019-09-02 18:41:25 +0530] [7370] [INFO] Booting worker with pid: 7370
+[2019-09-02 18:41:25 +0530] [7371] [INFO] Booting worker with pid: 7371
+[2019-09-02 18:41:25 +0530] [7372] [INFO] Booting worker with pid: 7372
+[2019-09-02 18:41:25 +0530] [7373] [INFO] Booting worker with pid: 7373
+[2019-09-02 18:41:25 +0530] [7374] [INFO] Booting worker with pid: 7374
+[2019-09-02 18:41:25 +0530] [7375] [INFO] Booting worker with pid: 7375
+[2019-09-02 18:41:25 +0530] [7376] [INFO] Booting worker with pid: 7376
+[2019-09-02 18:41:25 +0530] [7377] [INFO] Booting worker with pid: 7377
+[2019-09-02 18:41:34 +0530] [7376] [ERROR] Error handling request /v1/movies/movies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restplus/api.py", line 584, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restplus/api.py", line 584, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/apis/movies.py", line 26, in get
+    result = mov_ins.getallmovies()
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/resources/movies_ops.py", line 9, in getallmovies
+    all_db_rows = movies_ins.select(condition=None, all_row=True)
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/models/utils/movies.py", line 47, in select
+    return self._select_all(condition)
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/models/utils/movies.py", line 63, in _select_all
+    with Persistance.session as session:
+AttributeError: __enter__
+[2019-09-02 18:41:38 +0530] [7368] [ERROR] Error handling request /v1/movies/movies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restplus/api.py", line 584, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restplus/api.py", line 584, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/apis/movies.py", line 26, in get
+    result = mov_ins.getallmovies()
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/resources/movies_ops.py", line 9, in getallmovies
+    all_db_rows = movies_ins.select(condition=None, all_row=True)
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/models/utils/movies.py", line 47, in select
+    return self._select_all(condition)
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/models/utils/movies.py", line 63, in _select_all
+    with Persistance.session as session:
+AttributeError: __enter__
+[2019-09-02 18:45:45 +0530] [7356] [INFO] Handling signal: term
+[2019-09-02 18:45:45 +0530] [7361] [INFO] Worker exiting (pid: 7361)
+[2019-09-02 18:45:45 +0530] [7365] [INFO] Worker exiting (pid: 7365)
+[2019-09-02 18:45:45 +0530] [7367] [INFO] Worker exiting (pid: 7367)
+[2019-09-02 18:45:45 +0530] [7371] [INFO] Worker exiting (pid: 7371)
+[2019-09-02 18:45:45 +0530] [7372] [INFO] Worker exiting (pid: 7372)
+[2019-09-02 18:45:45 +0530] [7373] [INFO] Worker exiting (pid: 7373)
+[2019-09-02 18:45:45 +0530] [7359] [INFO] Worker exiting (pid: 7359)
+[2019-09-02 18:45:45 +0530] [7377] [INFO] Worker exiting (pid: 7377)
+[2019-09-02 18:45:45 +0530] [7362] [INFO] Worker exiting (pid: 7362)
+[2019-09-02 18:45:45 +0530] [7375] [INFO] Worker exiting (pid: 7375)
+[2019-09-02 18:45:45 +0530] [7368] [INFO] Worker exiting (pid: 7368)
+[2019-09-02 18:45:45 +0530] [7366] [INFO] Worker exiting (pid: 7366)
+[2019-09-02 18:45:45 +0530] [7360] [INFO] Worker exiting (pid: 7360)
+[2019-09-02 18:45:45 +0530] [7370] [INFO] Worker exiting (pid: 7370)
+[2019-09-02 18:45:45 +0530] [7369] [INFO] Worker exiting (pid: 7369)
+[2019-09-02 18:45:45 +0530] [7374] [INFO] Worker exiting (pid: 7374)
+[2019-09-02 18:45:45 +0530] [7376] [INFO] Worker exiting (pid: 7376)
+[2019-09-02 18:45:45 +0530] [7356] [INFO] Shutting down: Master
+[2019-09-02 18:45:58 +0530] [7416] [INFO] Starting gunicorn 19.9.0
+[2019-09-02 18:45:58 +0530] [7416] [INFO] Listening at: http://0.0.0.0:8443 (7416)
+[2019-09-02 18:45:58 +0530] [7416] [INFO] Using worker: sync
+[2019-09-02 18:45:58 +0530] [7419] [INFO] Booting worker with pid: 7419
+[2019-09-02 18:45:58 +0530] [7420] [INFO] Booting worker with pid: 7420
+[2019-09-02 18:45:58 +0530] [7421] [INFO] Booting worker with pid: 7421
+[2019-09-02 18:45:58 +0530] [7424] [INFO] Booting worker with pid: 7424
+[2019-09-02 18:45:58 +0530] [7425] [INFO] Booting worker with pid: 7425
+[2019-09-02 18:45:58 +0530] [7426] [INFO] Booting worker with pid: 7426
+[2019-09-02 18:45:59 +0530] [7427] [INFO] Booting worker with pid: 7427
+[2019-09-02 18:45:59 +0530] [7428] [INFO] Booting worker with pid: 7428
+[2019-09-02 18:45:59 +0530] [7429] [INFO] Booting worker with pid: 7429
+[2019-09-02 18:45:59 +0530] [7430] [INFO] Booting worker with pid: 7430
+[2019-09-02 18:45:59 +0530] [7431] [INFO] Booting worker with pid: 7431
+[2019-09-02 18:45:59 +0530] [7432] [INFO] Booting worker with pid: 7432
+[2019-09-02 18:45:59 +0530] [7433] [INFO] Booting worker with pid: 7433
+[2019-09-02 18:45:59 +0530] [7434] [INFO] Booting worker with pid: 7434
+[2019-09-02 18:45:59 +0530] [7435] [INFO] Booting worker with pid: 7435
+[2019-09-02 18:45:59 +0530] [7436] [INFO] Booting worker with pid: 7436
+[2019-09-02 18:45:59 +0530] [7437] [INFO] Booting worker with pid: 7437
+[2019-09-02 18:48:40 +0530] [7416] [INFO] Handling signal: term
+[2019-09-02 18:48:40 +0530] [7429] [INFO] Worker exiting (pid: 7429)
+[2019-09-02 18:48:40 +0530] [7421] [INFO] Worker exiting (pid: 7421)
+[2019-09-02 18:48:40 +0530] [7430] [INFO] Worker exiting (pid: 7430)
+[2019-09-02 18:48:40 +0530] [7425] [INFO] Worker exiting (pid: 7425)
+[2019-09-02 18:48:40 +0530] [7428] [INFO] Worker exiting (pid: 7428)
+[2019-09-02 18:48:40 +0530] [7419] [INFO] Worker exiting (pid: 7419)
+[2019-09-02 18:48:40 +0530] [7427] [INFO] Worker exiting (pid: 7427)
+[2019-09-02 18:48:40 +0530] [7436] [INFO] Worker exiting (pid: 7436)
+[2019-09-02 18:48:40 +0530] [7437] [INFO] Worker exiting (pid: 7437)
+[2019-09-02 18:48:40 +0530] [7420] [INFO] Worker exiting (pid: 7420)
+[2019-09-02 18:48:40 +0530] [7431] [INFO] Worker exiting (pid: 7431)
+[2019-09-02 18:48:40 +0530] [7433] [INFO] Worker exiting (pid: 7433)
+[2019-09-02 18:48:40 +0530] [7426] [INFO] Worker exiting (pid: 7426)
+[2019-09-02 18:48:40 +0530] [7424] [INFO] Worker exiting (pid: 7424)
+[2019-09-02 18:48:40 +0530] [7434] [INFO] Worker exiting (pid: 7434)
+[2019-09-02 18:48:40 +0530] [7432] [INFO] Worker exiting (pid: 7432)
+[2019-09-02 18:48:40 +0530] [7435] [INFO] Worker exiting (pid: 7435)
+[2019-09-02 18:48:40 +0530] [7416] [INFO] Shutting down: Master
+[2019-09-02 18:49:00 +0530] [7477] [INFO] Starting gunicorn 19.9.0
+[2019-09-02 18:49:00 +0530] [7477] [INFO] Listening at: http://0.0.0.0:8443 (7477)
+[2019-09-02 18:49:00 +0530] [7477] [INFO] Using worker: sync
+[2019-09-02 18:49:00 +0530] [7480] [INFO] Booting worker with pid: 7480
+[2019-09-02 18:49:00 +0530] [7481] [INFO] Booting worker with pid: 7481
+[2019-09-02 18:49:00 +0530] [7482] [INFO] Booting worker with pid: 7482
+[2019-09-02 18:49:00 +0530] [7483] [INFO] Booting worker with pid: 7483
+[2019-09-02 18:49:00 +0530] [7484] [INFO] Booting worker with pid: 7484
+[2019-09-02 18:49:00 +0530] [7485] [INFO] Booting worker with pid: 7485
+[2019-09-02 18:49:00 +0530] [7486] [INFO] Booting worker with pid: 7486
+[2019-09-02 18:49:00 +0530] [7488] [INFO] Booting worker with pid: 7488
+[2019-09-02 18:49:00 +0530] [7490] [INFO] Booting worker with pid: 7490
+[2019-09-02 18:49:00 +0530] [7491] [INFO] Booting worker with pid: 7491
+[2019-09-02 18:49:00 +0530] [7492] [INFO] Booting worker with pid: 7492
+[2019-09-02 18:49:00 +0530] [7493] [INFO] Booting worker with pid: 7493
+[2019-09-02 18:49:00 +0530] [7494] [INFO] Booting worker with pid: 7494
+[2019-09-02 18:49:00 +0530] [7495] [INFO] Booting worker with pid: 7495
+[2019-09-02 18:49:00 +0530] [7496] [INFO] Booting worker with pid: 7496
+[2019-09-02 18:49:00 +0530] [7497] [INFO] Booting worker with pid: 7497
+[2019-09-02 18:49:00 +0530] [7498] [INFO] Booting worker with pid: 7498
+[2019-09-02 18:49:35 +0530] [7482] [ERROR] Error handling request /v1/movies/movies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restplus/api.py", line 584, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restplus/api.py", line 584, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/apis/movies.py", line 26, in get
+    result = mov_ins.getallmovies()
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/resources/movies_ops.py", line 9, in getallmovies
+    all_db_rows = movies_ins.select(condition=None, all_row=True)
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/models/utils/movies.py", line 47, in select
+    return self._select_all(condition)
+  File "/Users/ramesh/PycharmProjects/sqlAlchemy/sqlAlchemy/models/utils/movies.py", line 63, in _select_all
+    with Persistance.session as session:
+AttributeError: __enter__
+[2019-09-02 18:51:15 +0530] [7477] [INFO] Handling signal: term
+[2019-09-02 18:51:15 +0530] [7482] [INFO] Worker exiting (pid: 7482)
+[2019-09-02 18:51:15 +0530] [7485] [INFO] Worker exiting (pid: 7485)
+[2019-09-02 18:51:15 +0530] [7486] [INFO] Worker exiting (pid: 7486)
+[2019-09-02 18:51:15 +0530] [7484] [INFO] Worker exiting (pid: 7484)
+[2019-09-02 18:51:15 +0530] [7480] [INFO] Worker exiting (pid: 7480)
+[2019-09-02 18:51:15 +0530] [7488] [INFO] Worker exiting (pid: 7488)
+[2019-09-02 18:51:15 +0530] [7496] [INFO] Worker exiting (pid: 7496)
+[2019-09-02 18:51:15 +0530] [7490] [INFO] Worker exiting (pid: 7490)
+[2019-09-02 18:51:15 +0530] [7481] [INFO] Worker exiting (pid: 7481)
+[2019-09-02 18:51:15 +0530] [7497] [INFO] Worker exiting (pid: 7497)
+[2019-09-02 18:51:15 +0530] [7492] [INFO] Worker exiting (pid: 7492)
+[2019-09-02 18:51:15 +0530] [7495] [INFO] Worker exiting (pid: 7495)
+[2019-09-02 18:51:15 +0530] [7491] [INFO] Worker exiting (pid: 7491)
+[2019-09-02 18:51:15 +0530] [7493] [INFO] Worker exiting (pid: 7493)
+[2019-09-02 18:51:15 +0530] [7498] [INFO] Worker exiting (pid: 7498)
+[2019-09-02 18:51:15 +0530] [7483] [INFO] Worker exiting (pid: 7483)
+[2019-09-02 18:51:15 +0530] [7494] [INFO] Worker exiting (pid: 7494)
+[2019-09-02 18:51:15 +0530] [7477] [INFO] Shutting down: Master
+[2019-09-02 18:51:22 +0530] [7537] [INFO] Starting gunicorn 19.9.0
+[2019-09-02 18:51:22 +0530] [7537] [INFO] Listening at: http://0.0.0.0:8443 (7537)
+[2019-09-02 18:51:22 +0530] [7537] [INFO] Using worker: sync
+[2019-09-02 18:51:22 +0530] [7540] [INFO] Booting worker with pid: 7540
+[2019-09-02 18:51:22 +0530] [7541] [INFO] Booting worker with pid: 7541
+[2019-09-02 18:51:22 +0530] [7542] [INFO] Booting worker with pid: 7542
+[2019-09-02 18:51:22 +0530] [7543] [INFO] Booting worker with pid: 7543
+[2019-09-02 18:51:22 +0530] [7544] [INFO] Booting worker with pid: 7544
+[2019-09-02 18:51:22 +0530] [7545] [INFO] Booting worker with pid: 7545
+[2019-09-02 18:51:22 +0530] [7546] [INFO] Booting worker with pid: 7546
+[2019-09-02 18:51:22 +0530] [7547] [INFO] Booting worker with pid: 7547
+[2019-09-02 18:51:22 +0530] [7548] [INFO] Booting worker with pid: 7548
+[2019-09-02 18:51:22 +0530] [7549] [INFO] Booting worker with pid: 7549
+[2019-09-02 18:51:22 +0530] [7551] [INFO] Booting worker with pid: 7551
+[2019-09-02 18:51:22 +0530] [7553] [INFO] Booting worker with pid: 7553
+[2019-09-02 18:51:22 +0530] [7554] [INFO] Booting worker with pid: 7554
+[2019-09-02 18:51:23 +0530] [7555] [INFO] Booting worker with pid: 7555
+[2019-09-02 18:51:23 +0530] [7556] [INFO] Booting worker with pid: 7556
+[2019-09-02 18:51:23 +0530] [7557] [INFO] Booting worker with pid: 7557
+[2019-09-02 18:51:23 +0530] [7558] [INFO] Booting worker with pid: 7558
+[2019-09-02 21:34:34 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7540)
+[2019-09-02 21:34:35 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7541)
+[2019-09-02 21:34:35 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7542)
+[2019-09-02 21:34:35 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7543)
+[2019-09-02 21:34:35 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7544)
+[2019-09-02 21:34:35 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7545)
+[2019-09-02 21:34:35 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7546)
+[2019-09-02 21:34:35 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7547)
+[2019-09-02 21:34:35 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7548)
+[2019-09-02 21:34:35 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7549)
+[2019-09-02 21:34:35 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7551)
+[2019-09-02 21:34:35 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7553)
+[2019-09-02 21:34:35 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7554)
+[2019-09-02 21:34:35 +0530] [7540] [INFO] Worker exiting (pid: 7540)
+[2019-09-02 21:34:35 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7555)
+[2019-09-02 21:34:35 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7556)
+[2019-09-02 21:34:35 +0530] [7542] [INFO] Worker exiting (pid: 7542)
+[2019-09-02 21:34:35 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7557)
+[2019-09-02 21:34:35 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7558)
+[2019-09-02 21:34:35 +0530] [7541] [INFO] Worker exiting (pid: 7541)
+[2019-09-02 21:34:35 +0530] [7545] [INFO] Worker exiting (pid: 7545)
+[2019-09-02 21:34:35 +0530] [7543] [INFO] Worker exiting (pid: 7543)
+[2019-09-02 21:34:35 +0530] [7544] [INFO] Worker exiting (pid: 7544)
+[2019-09-02 21:34:35 +0530] [7547] [INFO] Worker exiting (pid: 7547)
+[2019-09-02 21:34:35 +0530] [7546] [INFO] Worker exiting (pid: 7546)
+[2019-09-02 21:34:35 +0530] [7548] [INFO] Worker exiting (pid: 7548)
+[2019-09-02 21:34:35 +0530] [7555] [INFO] Worker exiting (pid: 7555)
+[2019-09-02 21:34:35 +0530] [7553] [INFO] Worker exiting (pid: 7553)
+[2019-09-02 21:34:35 +0530] [7556] [INFO] Worker exiting (pid: 7556)
+[2019-09-02 21:34:35 +0530] [7551] [INFO] Worker exiting (pid: 7551)
+[2019-09-02 21:34:35 +0530] [7557] [INFO] Worker exiting (pid: 7557)
+[2019-09-02 21:34:35 +0530] [7554] [INFO] Worker exiting (pid: 7554)
+[2019-09-02 21:34:35 +0530] [7549] [INFO] Worker exiting (pid: 7549)
+[2019-09-02 21:34:35 +0530] [7558] [INFO] Worker exiting (pid: 7558)
+[2019-09-02 21:34:36 +0530] [7608] [INFO] Booting worker with pid: 7608
+[2019-09-02 21:34:36 +0530] [7609] [INFO] Booting worker with pid: 7609
+[2019-09-02 21:34:36 +0530] [7610] [INFO] Booting worker with pid: 7610
+[2019-09-02 21:34:36 +0530] [7611] [INFO] Booting worker with pid: 7611
+[2019-09-02 21:34:36 +0530] [7612] [INFO] Booting worker with pid: 7612
+[2019-09-02 21:34:36 +0530] [7614] [INFO] Booting worker with pid: 7614
+[2019-09-02 21:34:36 +0530] [7615] [INFO] Booting worker with pid: 7615
+[2019-09-02 21:34:36 +0530] [7616] [INFO] Booting worker with pid: 7616
+[2019-09-02 21:34:36 +0530] [7617] [INFO] Booting worker with pid: 7617
+[2019-09-02 21:34:36 +0530] [7618] [INFO] Booting worker with pid: 7618
+[2019-09-02 21:34:36 +0530] [7619] [INFO] Booting worker with pid: 7619
+[2019-09-02 21:34:36 +0530] [7620] [INFO] Booting worker with pid: 7620
+[2019-09-02 21:34:36 +0530] [7621] [INFO] Booting worker with pid: 7621
+[2019-09-02 21:34:36 +0530] [7622] [INFO] Booting worker with pid: 7622
+[2019-09-02 21:34:36 +0530] [7623] [INFO] Booting worker with pid: 7623
+[2019-09-02 21:34:36 +0530] [7624] [INFO] Booting worker with pid: 7624
+[2019-09-02 21:34:36 +0530] [7625] [INFO] Booting worker with pid: 7625
+[2019-09-03 00:30:03 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7608)
+[2019-09-03 00:30:04 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7609)
+[2019-09-03 00:30:04 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7610)
+[2019-09-03 00:30:04 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7611)
+[2019-09-03 00:30:04 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7612)
+[2019-09-03 00:30:04 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7614)
+[2019-09-03 00:30:04 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7615)
+[2019-09-03 00:30:04 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7616)
+[2019-09-03 00:30:04 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7617)
+[2019-09-03 00:30:04 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7618)
+[2019-09-03 00:30:04 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7619)
+[2019-09-03 00:30:04 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7620)
+[2019-09-03 00:30:04 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7621)
+[2019-09-03 00:30:04 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7622)
+[2019-09-03 00:30:04 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7623)
+[2019-09-03 00:30:04 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7624)
+[2019-09-03 00:30:04 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7625)
+[2019-09-03 00:30:04 +0530] [7608] [INFO] Worker exiting (pid: 7608)
+[2019-09-03 00:30:04 +0530] [7609] [INFO] Worker exiting (pid: 7609)
+[2019-09-03 00:30:04 +0530] [7623] [INFO] Worker exiting (pid: 7623)
+[2019-09-03 00:30:04 +0530] [7612] [INFO] Worker exiting (pid: 7612)
+[2019-09-03 00:30:04 +0530] [7611] [INFO] Worker exiting (pid: 7611)
+[2019-09-03 00:30:04 +0530] [7610] [INFO] Worker exiting (pid: 7610)
+[2019-09-03 00:30:04 +0530] [7614] [INFO] Worker exiting (pid: 7614)
+[2019-09-03 00:30:04 +0530] [7625] [INFO] Worker exiting (pid: 7625)
+[2019-09-03 00:30:04 +0530] [7624] [INFO] Worker exiting (pid: 7624)
+[2019-09-03 00:30:04 +0530] [7615] [INFO] Worker exiting (pid: 7615)
+[2019-09-03 00:30:04 +0530] [7619] [INFO] Worker exiting (pid: 7619)
+[2019-09-03 00:30:04 +0530] [7621] [INFO] Worker exiting (pid: 7621)
+[2019-09-03 00:30:04 +0530] [7620] [INFO] Worker exiting (pid: 7620)
+[2019-09-03 00:30:04 +0530] [7618] [INFO] Worker exiting (pid: 7618)
+[2019-09-03 00:30:04 +0530] [7617] [INFO] Worker exiting (pid: 7617)
+[2019-09-03 00:30:04 +0530] [7622] [INFO] Worker exiting (pid: 7622)
+[2019-09-03 00:30:04 +0530] [7616] [INFO] Worker exiting (pid: 7616)
+[2019-09-03 00:30:05 +0530] [7665] [INFO] Booting worker with pid: 7665
+[2019-09-03 00:30:05 +0530] [7666] [INFO] Booting worker with pid: 7666
+[2019-09-03 00:30:05 +0530] [7667] [INFO] Booting worker with pid: 7667
+[2019-09-03 00:30:05 +0530] [7668] [INFO] Booting worker with pid: 7668
+[2019-09-03 00:30:05 +0530] [7669] [INFO] Booting worker with pid: 7669
+[2019-09-03 00:30:05 +0530] [7670] [INFO] Booting worker with pid: 7670
+[2019-09-03 00:30:05 +0530] [7671] [INFO] Booting worker with pid: 7671
+[2019-09-03 00:30:05 +0530] [7672] [INFO] Booting worker with pid: 7672
+[2019-09-03 00:30:05 +0530] [7673] [INFO] Booting worker with pid: 7673
+[2019-09-03 00:30:05 +0530] [7674] [INFO] Booting worker with pid: 7674
+[2019-09-03 00:30:05 +0530] [7675] [INFO] Booting worker with pid: 7675
+[2019-09-03 00:30:05 +0530] [7676] [INFO] Booting worker with pid: 7676
+[2019-09-03 00:30:05 +0530] [7677] [INFO] Booting worker with pid: 7677
+[2019-09-03 00:30:05 +0530] [7678] [INFO] Booting worker with pid: 7678
+[2019-09-03 00:30:05 +0530] [7679] [INFO] Booting worker with pid: 7679
+[2019-09-03 00:30:05 +0530] [7680] [INFO] Booting worker with pid: 7680
+[2019-09-03 00:30:05 +0530] [7681] [INFO] Booting worker with pid: 7681
+[2019-09-03 08:18:50 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7665)
+[2019-09-03 08:18:50 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7666)
+[2019-09-03 08:18:50 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7667)
+[2019-09-03 08:18:50 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7668)
+[2019-09-03 08:18:50 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7669)
+[2019-09-03 08:18:50 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7670)
+[2019-09-03 08:18:50 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7671)
+[2019-09-03 08:18:50 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7672)
+[2019-09-03 08:18:50 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7673)
+[2019-09-03 08:18:50 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7674)
+[2019-09-03 08:18:50 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7675)
+[2019-09-03 08:18:50 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7676)
+[2019-09-03 08:18:50 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7677)
+[2019-09-03 08:18:50 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7678)
+[2019-09-03 08:18:50 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7679)
+[2019-09-03 08:18:50 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7680)
+[2019-09-03 08:18:50 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7681)
+[2019-09-03 08:18:50 +0530] [7680] [INFO] Worker exiting (pid: 7680)
+[2019-09-03 08:18:50 +0530] [7674] [INFO] Worker exiting (pid: 7674)
+[2019-09-03 08:18:50 +0530] [7671] [INFO] Worker exiting (pid: 7671)
+[2019-09-03 08:18:50 +0530] [7673] [INFO] Worker exiting (pid: 7673)
+[2019-09-03 08:18:50 +0530] [7678] [INFO] Worker exiting (pid: 7678)
+[2019-09-03 08:18:50 +0530] [7667] [INFO] Worker exiting (pid: 7667)
+[2019-09-03 08:18:50 +0530] [7666] [INFO] Worker exiting (pid: 7666)
+[2019-09-03 08:18:50 +0530] [7668] [INFO] Worker exiting (pid: 7668)
+[2019-09-03 08:18:50 +0530] [7670] [INFO] Worker exiting (pid: 7670)
+[2019-09-03 08:18:50 +0530] [7679] [INFO] Worker exiting (pid: 7679)
+[2019-09-03 08:18:50 +0530] [7681] [INFO] Worker exiting (pid: 7681)
+[2019-09-03 08:18:50 +0530] [7672] [INFO] Worker exiting (pid: 7672)
+[2019-09-03 08:18:50 +0530] [7675] [INFO] Worker exiting (pid: 7675)
+[2019-09-03 08:18:50 +0530] [7677] [INFO] Worker exiting (pid: 7677)
+[2019-09-03 08:18:50 +0530] [7676] [INFO] Worker exiting (pid: 7676)
+[2019-09-03 08:18:50 +0530] [7669] [INFO] Worker exiting (pid: 7669)
+[2019-09-03 08:18:50 +0530] [7665] [INFO] Worker exiting (pid: 7665)
+[2019-09-03 08:18:51 +0530] [7699] [INFO] Booting worker with pid: 7699
+[2019-09-03 08:18:51 +0530] [7700] [INFO] Booting worker with pid: 7700
+[2019-09-03 08:18:51 +0530] [7702] [INFO] Booting worker with pid: 7702
+[2019-09-03 08:18:51 +0530] [7703] [INFO] Booting worker with pid: 7703
+[2019-09-03 08:18:51 +0530] [7704] [INFO] Booting worker with pid: 7704
+[2019-09-03 08:18:51 +0530] [7707] [INFO] Booting worker with pid: 7707
+[2019-09-03 08:18:52 +0530] [7709] [INFO] Booting worker with pid: 7709
+[2019-09-03 08:18:52 +0530] [7710] [INFO] Booting worker with pid: 7710
+[2019-09-03 08:18:52 +0530] [7712] [INFO] Booting worker with pid: 7712
+[2019-09-03 08:18:52 +0530] [7713] [INFO] Booting worker with pid: 7713
+[2019-09-03 08:18:52 +0530] [7714] [INFO] Booting worker with pid: 7714
+[2019-09-03 08:18:52 +0530] [7715] [INFO] Booting worker with pid: 7715
+[2019-09-03 08:18:52 +0530] [7716] [INFO] Booting worker with pid: 7716
+[2019-09-03 08:18:52 +0530] [7717] [INFO] Booting worker with pid: 7717
+[2019-09-03 08:18:52 +0530] [7718] [INFO] Booting worker with pid: 7718
+[2019-09-03 08:18:52 +0530] [7719] [INFO] Booting worker with pid: 7719
+[2019-09-03 08:18:52 +0530] [7720] [INFO] Booting worker with pid: 7720
+[2019-09-03 09:05:01 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7699)
+[2019-09-03 09:05:01 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7700)
+[2019-09-03 09:05:01 +0530] [7699] [INFO] Worker exiting (pid: 7699)
+[2019-09-03 09:05:01 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7702)
+[2019-09-03 09:05:01 +0530] [7700] [INFO] Worker exiting (pid: 7700)
+[2019-09-03 09:05:01 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7703)
+[2019-09-03 09:05:01 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7704)
+[2019-09-03 09:05:01 +0530] [7702] [INFO] Worker exiting (pid: 7702)
+[2019-09-03 09:05:01 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7707)
+[2019-09-03 09:05:01 +0530] [7703] [INFO] Worker exiting (pid: 7703)
+[2019-09-03 09:05:01 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7709)
+[2019-09-03 09:05:01 +0530] [7704] [INFO] Worker exiting (pid: 7704)
+[2019-09-03 09:05:01 +0530] [7707] [INFO] Worker exiting (pid: 7707)
+[2019-09-03 09:05:01 +0530] [7709] [INFO] Worker exiting (pid: 7709)
+[2019-09-03 09:05:01 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7710)
+[2019-09-03 09:05:01 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7712)
+[2019-09-03 09:05:01 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7713)
+[2019-09-03 09:05:01 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7714)
+[2019-09-03 09:05:01 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7715)
+[2019-09-03 09:05:01 +0530] [7710] [INFO] Worker exiting (pid: 7710)
+[2019-09-03 09:05:01 +0530] [7713] [INFO] Worker exiting (pid: 7713)
+[2019-09-03 09:05:01 +0530] [7712] [INFO] Worker exiting (pid: 7712)
+[2019-09-03 09:05:01 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7716)
+[2019-09-03 09:05:01 +0530] [7714] [INFO] Worker exiting (pid: 7714)
+[2019-09-03 09:05:01 +0530] [7715] [INFO] Worker exiting (pid: 7715)
+[2019-09-03 09:05:01 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7717)
+[2019-09-03 09:05:01 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7718)
+[2019-09-03 09:05:01 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7719)
+[2019-09-03 09:05:01 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7720)
+[2019-09-03 09:05:01 +0530] [7716] [INFO] Worker exiting (pid: 7716)
+[2019-09-03 09:05:01 +0530] [7719] [INFO] Worker exiting (pid: 7719)
+[2019-09-03 09:05:01 +0530] [7718] [INFO] Worker exiting (pid: 7718)
+[2019-09-03 09:05:01 +0530] [7720] [INFO] Worker exiting (pid: 7720)
+[2019-09-03 09:05:01 +0530] [7717] [INFO] Worker exiting (pid: 7717)
+[2019-09-03 09:05:01 +0530] [7759] [INFO] Booting worker with pid: 7759
+[2019-09-03 09:05:01 +0530] [7760] [INFO] Booting worker with pid: 7760
+[2019-09-03 09:05:01 +0530] [7761] [INFO] Booting worker with pid: 7761
+[2019-09-03 09:05:01 +0530] [7762] [INFO] Booting worker with pid: 7762
+[2019-09-03 09:05:01 +0530] [7763] [INFO] Booting worker with pid: 7763
+[2019-09-03 09:05:01 +0530] [7764] [INFO] Booting worker with pid: 7764
+[2019-09-03 09:05:01 +0530] [7765] [INFO] Booting worker with pid: 7765
+[2019-09-03 09:05:01 +0530] [7766] [INFO] Booting worker with pid: 7766
+[2019-09-03 09:05:01 +0530] [7767] [INFO] Booting worker with pid: 7767
+[2019-09-03 09:05:01 +0530] [7768] [INFO] Booting worker with pid: 7768
+[2019-09-03 09:05:01 +0530] [7769] [INFO] Booting worker with pid: 7769
+[2019-09-03 09:05:02 +0530] [7770] [INFO] Booting worker with pid: 7770
+[2019-09-03 09:05:02 +0530] [7771] [INFO] Booting worker with pid: 7771
+[2019-09-03 09:05:02 +0530] [7772] [INFO] Booting worker with pid: 7772
+[2019-09-03 09:05:02 +0530] [7773] [INFO] Booting worker with pid: 7773
+[2019-09-03 09:05:02 +0530] [7774] [INFO] Booting worker with pid: 7774
+[2019-09-03 09:05:02 +0530] [7775] [INFO] Booting worker with pid: 7775
+[2019-09-03 10:12:02 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7759)
+[2019-09-03 10:12:02 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7760)
+[2019-09-03 10:12:02 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7761)
+[2019-09-03 10:12:02 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7762)
+[2019-09-03 10:12:02 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7763)
+[2019-09-03 10:12:02 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7764)
+[2019-09-03 10:12:02 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7765)
+[2019-09-03 10:12:02 +0530] [7759] [INFO] Worker exiting (pid: 7759)
+[2019-09-03 10:12:02 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7766)
+[2019-09-03 10:12:02 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7767)
+[2019-09-03 10:12:02 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7768)
+[2019-09-03 10:12:02 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7769)
+[2019-09-03 10:12:02 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7770)
+[2019-09-03 10:12:02 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7771)
+[2019-09-03 10:12:02 +0530] [7760] [INFO] Worker exiting (pid: 7760)
+[2019-09-03 10:12:02 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7772)
+[2019-09-03 10:12:02 +0530] [7761] [INFO] Worker exiting (pid: 7761)
+[2019-09-03 10:12:02 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7773)
+[2019-09-03 10:12:02 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7774)
+[2019-09-03 10:12:02 +0530] [7763] [INFO] Worker exiting (pid: 7763)
+[2019-09-03 10:12:02 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7775)
+[2019-09-03 10:12:02 +0530] [7762] [INFO] Worker exiting (pid: 7762)
+[2019-09-03 10:12:02 +0530] [7768] [INFO] Worker exiting (pid: 7768)
+[2019-09-03 10:12:03 +0530] [7772] [INFO] Worker exiting (pid: 7772)
+[2019-09-03 10:12:02 +0530] [7766] [INFO] Worker exiting (pid: 7766)
+[2019-09-03 10:12:03 +0530] [7771] [INFO] Worker exiting (pid: 7771)
+[2019-09-03 10:12:02 +0530] [7764] [INFO] Worker exiting (pid: 7764)
+[2019-09-03 10:12:03 +0530] [7774] [INFO] Worker exiting (pid: 7774)
+[2019-09-03 10:12:02 +0530] [7767] [INFO] Worker exiting (pid: 7767)
+[2019-09-03 10:12:02 +0530] [7765] [INFO] Worker exiting (pid: 7765)
+[2019-09-03 10:12:03 +0530] [7769] [INFO] Worker exiting (pid: 7769)
+[2019-09-03 10:12:03 +0530] [7770] [INFO] Worker exiting (pid: 7770)
+[2019-09-03 10:12:03 +0530] [7773] [INFO] Worker exiting (pid: 7773)
+[2019-09-03 10:12:03 +0530] [7775] [INFO] Worker exiting (pid: 7775)
+[2019-09-03 10:12:03 +0530] [7791] [INFO] Booting worker with pid: 7791
+[2019-09-03 10:12:03 +0530] [7792] [INFO] Booting worker with pid: 7792
+[2019-09-03 10:12:03 +0530] [7793] [INFO] Booting worker with pid: 7793
+[2019-09-03 10:12:03 +0530] [7794] [INFO] Booting worker with pid: 7794
+[2019-09-03 10:12:03 +0530] [7795] [INFO] Booting worker with pid: 7795
+[2019-09-03 10:12:03 +0530] [7797] [INFO] Booting worker with pid: 7797
+[2019-09-03 10:12:03 +0530] [7798] [INFO] Booting worker with pid: 7798
+[2019-09-03 10:12:03 +0530] [7799] [INFO] Booting worker with pid: 7799
+[2019-09-03 10:12:03 +0530] [7800] [INFO] Booting worker with pid: 7800
+[2019-09-03 10:12:04 +0530] [7801] [INFO] Booting worker with pid: 7801
+[2019-09-03 10:12:04 +0530] [7802] [INFO] Booting worker with pid: 7802
+[2019-09-03 10:12:04 +0530] [7803] [INFO] Booting worker with pid: 7803
+[2019-09-03 10:12:04 +0530] [7804] [INFO] Booting worker with pid: 7804
+[2019-09-03 10:12:04 +0530] [7805] [INFO] Booting worker with pid: 7805
+[2019-09-03 10:12:04 +0530] [7806] [INFO] Booting worker with pid: 7806
+[2019-09-03 10:12:04 +0530] [7807] [INFO] Booting worker with pid: 7807
+[2019-09-03 10:12:04 +0530] [7808] [INFO] Booting worker with pid: 7808
+[2019-09-03 10:51:15 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7791)
+[2019-09-03 10:51:15 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7792)
+[2019-09-03 10:51:15 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7793)
+[2019-09-03 10:51:15 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7794)
+[2019-09-03 10:51:15 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7795)
+[2019-09-03 10:51:15 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7797)
+[2019-09-03 10:51:15 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7798)
+[2019-09-03 10:51:15 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7799)
+[2019-09-03 10:51:15 +0530] [7791] [INFO] Worker exiting (pid: 7791)
+[2019-09-03 10:51:15 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7800)
+[2019-09-03 10:51:15 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7801)
+[2019-09-03 10:51:15 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7802)
+[2019-09-03 10:51:15 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7803)
+[2019-09-03 10:51:15 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7804)
+[2019-09-03 10:51:15 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7805)
+[2019-09-03 10:51:15 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7806)
+[2019-09-03 10:51:15 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7807)
+[2019-09-03 10:51:15 +0530] [7537] [CRITICAL] WORKER TIMEOUT (pid:7808)
+[2019-09-03 10:51:15 +0530] [7792] [INFO] Worker exiting (pid: 7792)
+[2019-09-03 10:51:15 +0530] [7793] [INFO] Worker exiting (pid: 7793)
+[2019-09-03 10:51:15 +0530] [7797] [INFO] Worker exiting (pid: 7797)
+[2019-09-03 10:51:15 +0530] [7794] [INFO] Worker exiting (pid: 7794)
+[2019-09-03 10:51:15 +0530] [7799] [INFO] Worker exiting (pid: 7799)
+[2019-09-03 10:51:15 +0530] [7807] [INFO] Worker exiting (pid: 7807)
+[2019-09-03 10:51:15 +0530] [7798] [INFO] Worker exiting (pid: 7798)
+[2019-09-03 10:51:15 +0530] [7803] [INFO] Worker exiting (pid: 7803)
+[2019-09-03 10:51:15 +0530] [7795] [INFO] Worker exiting (pid: 7795)
+[2019-09-03 10:51:15 +0530] [7801] [INFO] Worker exiting (pid: 7801)
+[2019-09-03 10:51:15 +0530] [7804] [INFO] Worker exiting (pid: 7804)
+[2019-09-03 10:51:15 +0530] [7806] [INFO] Worker exiting (pid: 7806)
+[2019-09-03 10:51:15 +0530] [7800] [INFO] Worker exiting (pid: 7800)
+[2019-09-03 10:51:15 +0530] [7805] [INFO] Worker exiting (pid: 7805)
+[2019-09-03 10:51:15 +0530] [7802] [INFO] Worker exiting (pid: 7802)
+[2019-09-03 10:51:15 +0530] [7808] [INFO] Worker exiting (pid: 7808)
+[2019-09-03 10:51:16 +0530] [7843] [INFO] Booting worker with pid: 7843
+[2019-09-03 10:51:16 +0530] [7844] [INFO] Booting worker with pid: 7844
+[2019-09-03 10:51:16 +0530] [7845] [INFO] Booting worker with pid: 7845
+[2019-09-03 10:51:16 +0530] [7846] [INFO] Booting worker with pid: 7846
+[2019-09-03 10:51:16 +0530] [7848] [INFO] Booting worker with pid: 7848
+[2019-09-03 10:51:16 +0530] [7849] [INFO] Booting worker with pid: 7849
+[2019-09-03 10:51:16 +0530] [7850] [INFO] Booting worker with pid: 7850
+[2019-09-03 10:51:16 +0530] [7851] [INFO] Booting worker with pid: 7851
+[2019-09-03 10:51:17 +0530] [7852] [INFO] Booting worker with pid: 7852
+[2019-09-03 10:51:17 +0530] [7853] [INFO] Booting worker with pid: 7853
+[2019-09-03 10:51:17 +0530] [7854] [INFO] Booting worker with pid: 7854
+[2019-09-03 10:51:17 +0530] [7855] [INFO] Booting worker with pid: 7855
+[2019-09-03 10:51:17 +0530] [7856] [INFO] Booting worker with pid: 7856
+[2019-09-03 10:51:17 +0530] [7857] [INFO] Booting worker with pid: 7857
+[2019-09-03 10:51:17 +0530] [7858] [INFO] Booting worker with pid: 7858
+[2019-09-03 10:51:17 +0530] [7859] [INFO] Booting worker with pid: 7859
+[2019-09-03 10:51:17 +0530] [7860] [INFO] Booting worker with pid: 7860
+[2019-09-03 10:54:01 +0530] [7537] [INFO] Handling signal: term
+[2019-09-03 10:54:01 +0530] [7852] [INFO] Worker exiting (pid: 7852)
+[2019-09-03 10:54:01 +0530] [7850] [INFO] Worker exiting (pid: 7850)
+[2019-09-03 10:54:01 +0530] [7853] [INFO] Worker exiting (pid: 7853)
+[2019-09-03 10:54:01 +0530] [7843] [INFO] Worker exiting (pid: 7843)
+[2019-09-03 10:54:01 +0530] [7855] [INFO] Worker exiting (pid: 7855)
+[2019-09-03 10:54:01 +0530] [7849] [INFO] Worker exiting (pid: 7849)
+[2019-09-03 10:54:01 +0530] [7854] [INFO] Worker exiting (pid: 7854)
+[2019-09-03 10:54:01 +0530] [7856] [INFO] Worker exiting (pid: 7856)
+[2019-09-03 10:54:01 +0530] [7858] [INFO] Worker exiting (pid: 7858)
+[2019-09-03 10:54:01 +0530] [7857] [INFO] Worker exiting (pid: 7857)
+[2019-09-03 10:54:01 +0530] [7851] [INFO] Worker exiting (pid: 7851)
+[2019-09-03 10:54:01 +0530] [7846] [INFO] Worker exiting (pid: 7846)
+[2019-09-03 10:54:01 +0530] [7859] [INFO] Worker exiting (pid: 7859)
+[2019-09-03 10:54:01 +0530] [7848] [INFO] Worker exiting (pid: 7848)
+[2019-09-03 10:54:01 +0530] [7844] [INFO] Worker exiting (pid: 7844)
+[2019-09-03 10:54:01 +0530] [7845] [INFO] Worker exiting (pid: 7845)
+[2019-09-03 10:54:01 +0530] [7860] [INFO] Worker exiting (pid: 7860)
+[2019-09-03 10:54:01 +0530] [7537] [INFO] Shutting down: Master
