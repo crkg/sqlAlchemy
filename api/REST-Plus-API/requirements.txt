@@ -18,7 +18,7 @@ cryptography==2.7
 DateTime==4.3
 docker==4.0.2
 docutils==0.14
-ecdsa==0.13.2
+ecdsa==0.13.3
 Flask==1.1.0
 flask-restplus==0.12.1
 future==0.17.1
