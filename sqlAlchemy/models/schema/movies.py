@@ -12,7 +12,7 @@ class Movies(db.Model):
 
     def to_obj(self):
         return {
-            "mpvie_name": self.movie_name,
+            "movie_name": self.movie_name,
             "year": self.year,
             "director": self.director
         }

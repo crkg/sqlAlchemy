@@ -1,5 +1,5 @@
 from flask_restplus import Api
-from apis.movies import namespace as moviesnamespace
+from sqlAlchemy.apis.movies import namespace as moviesnamespace
 
 api = Api(
     title='Learn-API',

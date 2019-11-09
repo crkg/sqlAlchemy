@@ -1,19 +1,21 @@
 import sys
 import os
-sys.path.append("C:\\Users\\ramesh.kg\\PycharmProjects\\sqlAlchemy\\")
+sys.path.append("/Users/ramesh/PycharmProjects/sqlAlchemy")
 from flask import Flask
-from sqlAlchemy.apis import api
+
 from sqlAlchemy.models.utils.base_db import db
 
-app = Flask(__name__)
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
-path = os.path.abspath(os.path.dirname(__file__))+'\\models\\test.db'
-app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///C:\\\\Users\\\\ramesh.kg\\\\PycharmProjects\\\\" \
-                                        "sqlAlchemy\\\\sqlAlchemy\\\\models\\\\test.db"
+def load_conf(app):
+    app.config.from_object('config.app_conf_local')
+    if 'CONFFILE_PATH' in os.environ:
+        app.config.from_envvar('CONFFILE_PATH')
 
+app = Flask(__name__)
+load_conf(app)
 app.app_context().push()
 db.init_app(app)
 db.create_all()
+from sqlAlchemy.apis import api
 api.init_app(app)
 
 

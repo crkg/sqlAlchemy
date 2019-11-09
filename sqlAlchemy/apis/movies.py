@@ -1,5 +1,7 @@
+
 from flask_restplus import Resource, fields, reqparse, Namespace
-from sqlAlchemy.resources.movies_ops import MovieOperations
+from sqlalchemy.resources.injectors import ins_creation
+
 
 parselevel=reqparse.RequestParser()
 parselevel.add_argument('directorname', type=str, required=True, help='Enter the director name')
@@ -22,8 +24,8 @@ class TodoSimple(Resource):
     # @namespace.doc(parser=awsparselevel)
     def get(self):
 
-        mov_ins = MovieOperations()
-        result = mov_ins.getallmovies()
+        mov_db_ins, mov_ins = ins_creation()
+        result = mov_ins.getallmovies(movies_ins=mov_db_ins)
         if not result:
             return {"movies": "movies not found"}, 404
         else:
@@ -38,7 +40,8 @@ class TodoSimple(Resource):
     def post(self):
         payload = self.parsing_args()
         print(payload)
-        insert_db = MovieOperations().insertintodb(payload)
+        movies_db_ins, movies_ops_ins = ins_creation()
+        insert_db = movies_ops_ins.insertintodb(payload,movies_db_ins)
         if insert_db == 'success':
             return 'success', 201
 
@@ -63,8 +66,8 @@ class TodoSimpleDirector(Resource):
         payload = parselevel.parse_args()
         print(payload)
         directorname = payload.get('directorname')
-        mov_ins = MovieOperations()
-        result = mov_ins.getmoviesbydir(directorname)
+        movies_db_ins, movies_ops_ins = ins_creation()
+        result = movies_ops_ins.getmoviesbydir(directorname, movies_db_ins)
         if not result:
             return {"movies": "movies not found"}, 404
         else:
