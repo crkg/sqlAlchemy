@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %} myinheritance tmeplate {% endblock %}
+
+{% block content %}
+    <h1> Hello World {{ var_name }}</h1>
+    <p> value from a dictonary {{ mydict['ac'] }}</p>
+    <p> value from a list {{ mylist[0] }}</p>
+    <p> value from a list {{ mylist[myindex] }}</p>
+    <p> value from objects method : {{ myObject.somemethod() }}</p>
+{% endblock %}
