@@ -14,7 +14,7 @@ chardet==3.0.4
 Click==7.0
 colorama==0.4.1
 coverage==4.5.3
-cryptography==2.7
+cryptography==3.2
 DateTime==4.3
 docker==4.0.2
 docutils==0.14
